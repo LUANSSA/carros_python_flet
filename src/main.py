@@ -1,5 +1,5 @@
 import flet as ft
-from storage.data.database import cars
+from dao.database import cars
 
 def main(page: ft.Page):
     # Título da página
@@ -8,7 +8,7 @@ def main(page: ft.Page):
     page.window.width=400
     # Altura inicial da página
     page.window.height=800
-
+    
 
     # Função checked
     def chek_item_clicked(e):
